@@ -1,0 +1,32 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: sans-serif; /* O la fuente que prefieras */
+    }
+  
+  h1 {
+    font-size: 4em;
+    font-family: sans-serif;
+    color: #f0f0f0; /* Gris claro */
+    text-shadow: 2px 2px 0 #888,
+                2px 2px 0 #666,
+                4px 4px 0 #444;
+    text-align: center;
+      }
+
+  h2 {
+    font-size: 2em;
+    text-align: left;
+    text-shadow: 2px 2px 0 #888,
+                2px 2px 0 #666,
+                4px 4px 0 #444;
+    }
+  
+  a {
+    color: hsl(61, 100%, 50%); 
+    text-decoration: none;
+    }
+  span{
+    color: crimson;
+    text-decoration: line-through;
+    }

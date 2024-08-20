@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Formularios en HTML</h1>
+    <form>
+        <!-- Hay que matchear la etiqueta con el label por una cuestión legal -->
+        <label for="nombre">Ingrese su nombre:</label> <!-- label es para personas con problemas de visión -->
+        <input 
+            type="text" 
+            minlength="8" 
+            maxlength="20" 
+            placeholder="Iván Silva" 
+            id="nombre"
+            name="nombre"> <!-- Se coloca para usarlo en JavaScript -->
+        <input type="password">
+        <input type="number">
+        <input type="email" required> <!-- required es para validar que sea realmente un email-->
+        <input type="submit" value="Iniciar Sesión"> <!-- value para cambiar el contenido de "Enviar" (en español). Submit en inglés, etc -->
+        <button type="button">Registrar</button> <!-- Para indicar que es un botón y no recargue la página -->
+        <button>Terminar</button> <!-- Si no le agrego type, recarga la página -->
+        <br>
+        <br>
+        <label for="mensaje">Ingrese un mensaje:</label>
+        <br>
+        <textarea 
+            id="mensaje"
+            minlength="30" 
+            maxlength="150"
+            required
+            placeholder="Ingrese texto [min(30) max (150)]">
+        </textarea>
+        <br>
+        <input type="datetime-local"><br>
+        <input type="file"><br>
+        <br>
+        <span>Seleccioná tu lenguaje preferido:</span>
+        <br>
+        <label for="html">HTML</label> 
+        <input type="radio" id="html" name="sel_len">
+        <br>
+        <label for="css">CSS</label> 
+        <input type="radio" id="css" name="sel_len">
+        <br>
+        <label for="JavaScript">JavaScript</label> 
+        <input type="radio" id="JavaScript" name="sel_len">
+        <br>
+        <br>
+        <span>Seleccioná tus lenguaje conocidos:</span>
+        <br>
+        <label for="html_con">HTML</label> 
+        <input type="checkbox" id="html_con" name="sel_len_con">
+        <br>
+        <label for="css_con">CSS</label> 
+        <input type="checkbox" id="css_con" name="sel_len_con">
+        <br>
+        <label for="JavaScript_con">JavaScript</label> 
+        <input type="checkbox" id="JavaScript_con" name="sel_len_con">
+        <br>
+        <br>
+        <label for="pais">Seleccionar un país:</label>
+        <select name="pais" id="pais">
+            <option value="AR">Argentina</option>
+            <option value="FR">Francia</option>
+            <option value="BR">Brasil</option>
+            <option value="NULO" selected disabled>No seleccionado</option>
+        </select>
+    </form>
+</body>
+</html>
