@@ -1,0 +1,43 @@
+/* styles.css */
+body {
+    font-family: Roboto, sans-serif;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .payment-section {
+    text-align: center;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+  }
+  
+  .payment-section img {
+    width: 100px; /* Ajusta el tamaño según la imagen */
+    margin-bottom: 20px;
+  }
+  
+  .payment-section h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .payment-section p {
+    color: #666;
+    margin-bottom: 20px;
+  }
+  
+  .payment-section button {
+    background-color: #bee6f1;
+    color: #3360b6;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;  
+  }

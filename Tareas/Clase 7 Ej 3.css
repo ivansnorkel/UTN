@@ -1,0 +1,8 @@
+  .boton-ingresar {
+    background-color: #ffffff; /* Fondo blanco */
+    color: #333333; /* Texto gris oscuro */
+    border: 1px solid #000; /* Borde negro de 1px */
+    border-radius: 5px; /* Bordes redondeados */
+    padding: 10px 20px; /* Espacio interno */
+    cursor: pointer; /* Cambia el cursor al apuntar */
+  }

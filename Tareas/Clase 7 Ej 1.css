@@ -1,0 +1,16 @@
+/* styles.css */
+body {
+    font-family: sans-serif;
+  }
+  
+  .boton {
+    background-color: #6a5acd; 
+    color: #fff;
+    font-family: 'DM Sans', sans-serif; 
+    font-size: 16px;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: inset 0px 2px 4px rgba(0, 0, 0, 0.2);
+  }
